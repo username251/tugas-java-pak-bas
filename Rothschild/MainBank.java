@@ -27,6 +27,11 @@ public class MainBank {
         {
             Rekening = new rekeningGiro(noRek, saldo);
         }
+        else
+        {
+            System.out.println("Pilihan tidak tersedia");
+            System.exit(0);
+        }
 
         System.out.println("\n|^^INFORMASI REKENING^^|");
         Rekening.TampilkanData(Rekening.NoRekening, Rekening.saldo);
