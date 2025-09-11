@@ -7,7 +7,7 @@ public class rekeningGiro extends rekening{
     }
 
     @Override
-    public double HitungBunga()
+    public double HitungBunga(double SukuBunga)
     {
         return saldo * 0.01;
     }

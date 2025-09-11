@@ -16,25 +16,20 @@ public class MainBank {
 
         if (choices == 1)
         {
-            System.out.println("masukkan suku bunga (%): ");
-            input.nextDouble();
             Rekening = new rekeningTabungan(noRek, saldo);
         }
         else if (choices == 3)
         {
-            System.out.println("masukkan jangka waktu (bulan): ");
-            input.nextInt();
+
             Rekening = new rekeningDeposito(noRek, saldo);
         }
         else if (choices == 2)
         {
-            System.out.println("masukkan limit overdraft: ");
-            input.nextDouble();
             Rekening = new rekeningGiro(noRek, saldo);
         }
 
         System.out.println("\n|^^INFORMASI REKENING^^|");
         Rekening.TampilkanData(Rekening.NoRekening, Rekening.saldo);
-        System.out.printf("Bunga yang didapat: " + Rekening.HitungBunga());
+        System.out.printf("Bunga yang didapat: " + Rekening.HitungBunga(0));
     }
 }

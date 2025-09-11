@@ -16,7 +16,7 @@ public class rekening {
         System.out.println("Saldo: " + saldo);
     }
 
-    public double HitungBunga()
+    public double HitungBunga(double SukuBunga)
     {
         return 0;
     }
