@@ -8,4 +8,4 @@ public class publicstaticvoidmainstringargs {
     System.out.println("---------------------");
     waliguru.tampilkandatawali();
     }
-}
+}//mason
