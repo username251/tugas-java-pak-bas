@@ -37,4 +37,4 @@ public class MainBank {
         Rekening.TampilkanData(Rekening.NoRekening, Rekening.saldo);
         System.out.printf("Bunga yang didapat: " + Rekening.HitungBunga(0));
     }
-}
+} //mason
