@@ -1,6 +1,6 @@
 package TugasAccessModifier;
 import java.util.*;
-
+//mason
 public class MainCompany {
     static Scanner input = new Scanner(System.in);
     static pegawai Employee;
